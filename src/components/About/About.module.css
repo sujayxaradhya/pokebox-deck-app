@@ -1,0 +1,92 @@
+/* About.module.css */
+h2 {
+	color: #c1c1c1;
+	margin: 0 1.2rem 1.5rem 1.2rem;
+}
+
+.aboutContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 12rem 7rem 12rem;
+	padding: 2rem;
+	font-family: "Hack NF", sans-serif;
+}
+
+.aboutMain {
+	margin-bottom: 3.5rem;
+}
+
+.aboutFeatures,
+.aboutTechStack,
+.aboutCreator,
+.aboutContribute {
+	margin-bottom: 2rem;
+}
+
+.aboutTitle {
+	font-size: 2rem;
+	margin: 5rem 15rem 0 15rem;
+	background: linear-gradient(
+		to right,
+		hsla(53, 84%, 74%, 1) 0%,
+		hsla(336, 87%, 61%, 1) 50%,
+		hsla(262, 81%, 71%, 1) 100%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	background-size: 500% auto;
+	animation: textGradient 4.3s ease-in-out infinite alternate;
+}
+
+@keyframes textGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.aboutText {
+	color: #bfbfbf;
+	line-height: 1.7;
+	margin: 0 1.2rem 0.7rem 1.2rem;
+}
+
+.textLink {
+	background: linear-gradient(
+		to right,
+		hsla(53, 84%, 74%, 1) 0%,
+		hsla(336, 87%, 61%, 1) 50%,
+		hsla(262, 81%, 71%, 1) 100%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	background-size: 500% auto;
+	animation: textGradient 4.3s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 768px) {
+	.aboutContainer {
+		margin: 0 5rem 7rem 5rem;
+		padding: 2rem;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.aboutContainer {
+		margin: 0 1rem 7rem 1rem;
+		padding: 2rem;
+	}
+
+	.aboutTitle {
+		font-size: 2rem;
+		margin: 5rem 1rem 0 3.9rem;
+		display: inline-block;
+	}
+}

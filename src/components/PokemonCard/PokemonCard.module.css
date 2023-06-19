@@ -1,0 +1,79 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 1rem;
+	padding: 1.2rem;
+	border-radius: 1rem;
+	width: 17.5rem; /* Width of the card */
+	box-shadow: 0 0.9rem 0.9rem 0 rgba(255, 255, 255, 0.212);
+	backdrop-filter: blur(0.25rem);
+	-webkit-backdrop-filter: blur(0.25rem);
+	border: 0.0625rem solid rgba(255, 255, 255, 0.117) none;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+	transform: translateY(-0.625rem);
+	box-shadow: 0 0.25rem 0.25rem 0 rgba(255, 255, 255, 0.212);
+}
+
+img {
+	width: 6.25rem;
+	height: 6.25rem;
+	object-fit: contain;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1rem;
+	background: linear-gradient(
+		to right,
+		hsla(53, 84%, 74%, 1) 0%,
+		hsla(336, 87%, 61%, 1) 30%,
+		hsla(193, 81%, 84%, 1) 70%,
+		hsla(262, 81%, 71%, 1) 100%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent; /* Fall-back for browsers that don't support background-clip */
+	background-size: 500% auto;
+	animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.card-info {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+p {
+	color: #f2f3f4;
+	margin: 0.5rem;
+	display: inline-block;
+}
+
+span {
+	display: inline-block;
+	padding: 0.2rem 0.3rem;
+	margin: 0.5rem 0.2rem;
+	background: rgba(255, 255, 255, 0.104);
+	border: 0.0625rem solid #686868 none;
+	border-radius: 0.3rem;
+}
