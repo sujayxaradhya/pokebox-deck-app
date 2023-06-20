@@ -2,7 +2,7 @@
 
 Welcome, Pokémon enthusiasts! Immerse yourself in the captivating world of Pokémon with **PokéBox Deck**, a web application meticulously crafted for exploring and learning about Pokémon cards in a visually enchanting manner.
 
-[![App Preview](thumbnail_image_url)](https://drive.google.com/file/d/1oMUjWTobivH0eKCUD5vkgIHgi_eVKzjO/view?usp=drive_link)
+[![App Preview](thumbnail_image_url)](https://youtu.be/BlKb6FeHqAM)
 
 ## 🌈 Features 🌈
 
