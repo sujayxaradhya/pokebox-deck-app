@@ -25,7 +25,7 @@ const About: React.FC = () => {
 						{" "}
 						<strong>Detailed Information:</strong> The cards show a wealth of
 						information about each Pokémon including their name, image, species,
-						base experience, weight, moves, and forms.
+						experience, weight, attack, moves, and forms.
 					</p>
 					<p className={styles.aboutText}>
 						{" "}
